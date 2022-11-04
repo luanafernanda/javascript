@@ -1,10 +1,12 @@
 const { gets, print } = require("./funcoes-auxiliares");
 
-const numerosSorteados = [];
+let maiorValorEncontrado = 0;
 
 for (let i = 0; i < 5; i++) {
-  const numerosSorteados = gets();
-  numerosSorteado.push(numerosSorteados);
+  const numerosSorteado = gets();
+  if (numerosSorteado > maiorValorEncontrado) {
+    maiorValorEncontrado = numerosSorteado;
+  }
 }
 
-console.log(numerosSorteados);
+print(maiorValor);
